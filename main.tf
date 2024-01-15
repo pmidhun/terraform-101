@@ -19,7 +19,7 @@ provider "aws" {
 # }
 
 module "my-infra" {
-  source = "../../modules/my-infra"
+  source = "/modules/my-infra"
   # providers = {
   #   aws = aws.southregion
   # }
